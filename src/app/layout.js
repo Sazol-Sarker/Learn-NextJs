@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
         {/* navbar */}
         <Navbar></Navbar>
         {/* outlet content */}
-        <main className="h-screen max-h-[500px] place-content-center place-items-center">{children}</main>
+        <main className="min-h-96 place-content-center place-items-center">{children}</main>
         {/* footer */}
         <footer className="flex place-items-center place-content-center border-2 border-amber-100"> Awesome next js app </footer>
       </body>
